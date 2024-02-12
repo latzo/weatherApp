@@ -1,0 +1,19 @@
+<form *ngIf="city" name="getCityWeather">
+  <div class="modal-header">
+    <h4 class="modal-title" data-cy="cityDeleteDialogHeading">{{ city.name }}</h4>
+    <button type="button" class="btn-close" data-dismiss="modal" aria-hidden="true" (click)="cancel()">&times;</button>
+  </div>
+
+  <div class="modal-body">
+    <img src="{{ iconSrc }}" />
+    <h5>
+      Temp: <span> {{ temp }}</span>
+    </h5>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="cancel()">
+      <fa-icon icon="ban"></fa-icon>&nbsp;<span>Close</span>
+    </button>
+  </div>
+</form>

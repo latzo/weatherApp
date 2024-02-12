@@ -1,6 +1,7 @@
 package com.dp.weatherapp.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
 
 import com.dp.weatherapp.IntegrationTest;
 import com.dp.weatherapp.domain.User;

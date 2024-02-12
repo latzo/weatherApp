@@ -1,0 +1,28 @@
+{
+  "changelogDate": "20240212121440",
+  "dto": "mapstruct",
+  "entityTableName": "city",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lat",
+      "fieldType": "Double",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "lng",
+      "fieldType": "Double",
+      "fieldValidateRules": []
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "City",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

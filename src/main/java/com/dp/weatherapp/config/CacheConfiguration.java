@@ -38,6 +38,7 @@ public class CacheConfiguration {
         return cm -> {
             createCache(cm, com.dp.weatherapp.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, com.dp.weatherapp.repository.UserRepository.USERS_BY_EMAIL_CACHE);
+            createCache(cm, com.dp.weatherapp.domain.City.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -56,4 +56,7 @@ Login: admin
 Password : admin
 
 
+## NB
+
+The fileReader API is present on this same project on  com.dp.weatherapp.web.rest.FileResource 
 

@@ -24,6 +24,7 @@ public class FileResource {
 
     @GetMapping("/")
     public GetFileBase64Response GetFileAsBase64String(FileRequestModel model) {
-        return "TO FINISH";
+        //TODO
+        return new GetFileBase64Response();
     }
 }
